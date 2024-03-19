@@ -1,0 +1,11 @@
+{
+  "directories": [
+    {
+      "name": "App 1",
+      "localPath": "/Users/user/path/to/application/",
+      "remotePath": "user@host:/path/to/application/on/server",
+      "pattern": ["**/*"],
+      "excludeList": [".git", "README.md"]
+    }
+  ]
+}
