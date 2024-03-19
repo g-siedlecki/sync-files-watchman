@@ -11,6 +11,16 @@
 - rsync
   - `brew install rsync`
 
-2. Zmodyfikuj `config.json`
+2. Zmodyfikuj `config.json` wg `config.example.json`
 3. Dodaj klucze do `~/.ssh` i chociaż raz połącz się z serwerem by dodać go do `authorized_keys`
 4. Uruchom `python3 create_watchman_config.py`
+
+## Logi
+
+### macOS
+
+`tail -f /opt/homebrew/var/run/watchman/app-state/log`
+
+### Ubuntu
+
+`tail -f /var/run/watchman/app-state/log`
